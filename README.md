@@ -2,7 +2,9 @@
   <img src="img/video.gif" alt="Animated Gif">
 </p>
 
-
+<h1 align="center">
+ <a href="https://hailton-nascimento.github.io/CotacaoConversorMoedas/" target="_blank" rel="noopener noreferrer">Demo</a>
+</h1>
 
 # Conversor de Moeda
 
@@ -12,8 +14,7 @@ Durante a aula, utilizamos JavaScript para converter valores de dólar para real
 
 ## Objetivo
 
-- Criar um aplicação que consulte a ultima cotação da moeda e faça a conversar para reais.
-
+- Criar uma aplicação que consulte através de uma api externa a última cotação da moeda desejada e faça a conversar para reais.
 
 # Índice
 # terra
@@ -21,8 +22,8 @@ Durante a aula, utilizamos JavaScript para converter valores de dólar para real
 <p>
     <ul>
         <li><a href="#sobre">Sobre</a></li>
-    	<li><a href="#tecnologias">Tecnologias utilizadas</a></li>
-	</ul>
+        <li><a href="#tecnologias">Tecnologias utilizadas</a></li>
+    </ul>
 </p>
 
 <h2 id="sobre">
@@ -49,28 +50,18 @@ Foram utilizadas as seguintes tecnologias:
 
 
 
-
 ### Contato
-
-- [Solution on my Github profile](https://github.com/nathannieg/frontendmentor-3-column-preview)
-- [Live site](https://3column-card-ng.netlify.app/)
-
 
 - Github - [Hailton Nascimento](https://github.com/Hailton-Nascimento)
 - LinkedIn - [Hailton Nascimento](https://linkedin.com/in/hailton-nascimento)
 
-
-
-
-
-
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<!-- [![LinkedIn][linkedin-shield]][linkedin-url]
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 
+<!-- [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/hailton-nascimento -->
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/hailton-nascimento
+
 
