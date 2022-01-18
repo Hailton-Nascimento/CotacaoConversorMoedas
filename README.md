@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="img/video.gif" alt="Animated Gif">
+</p>
+
+
+
 # Conversor de Moeda
 
 Este projeto é parte da Imersão Dev, realizada pela [Alura](https://www.alura.com.br/) em setembro de 2021.
@@ -8,7 +14,6 @@ Durante a aula, utilizamos JavaScript para converter valores de dólar para real
 
 - Criar um aplicação que consulte a ultima cotação da moeda e faça a conversar para reais.
 
-<VIDEO   src="img/video.mp4" autoplay="true">
 
 # Índice
 # terra
