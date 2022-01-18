@@ -16,8 +16,16 @@ body {
     align-items: center;
 }
 
+@media (max-width: 550px) {
+    .estrutura {
+        grid-template-columns: 100%;
+        grid-template-areas: "header" "sidenav" "content" "anuncios" "footer";
+    }
+}
+
 .container {
-    width: 50%;
+    width: 500px;
+    max-width: 90%;
     background: url(../img/bg03.jpg) no-repeat;
     backdrop-filter: opacity(0.1);
     background-size: cover;
@@ -53,8 +61,8 @@ body {
 select {
     position: relative;
     display: block;
-    width: 90%;
-    max-width: 500px;
+    width: 500px;
+    max-width: 90%;
     height: 2.2rem;
     margin: auto;
     font-family: 'Courier New', Courier, monospace;
@@ -69,10 +77,13 @@ select {
 select option {
     font-size: 1rem;
     font-weight: bold;
+    width: 500px;
+    max-width: 90%;
 }
 
 .valorCotacao {
-    width: 80%;
+    width: 450px;
+    max-width: 90%;
     padding: 15px;
     margin: 20px auto;
     text-align: center;
@@ -88,7 +99,8 @@ select option {
 }
 
 .container-entrada {
-    width: 60%;
+    width: 450px;
+    max-width: 90%;
     background: rgba(212, 119, 102, 0.849);
     margin: 10px auto;
     padding: 10px;
@@ -102,7 +114,7 @@ select option {
     display: inline-block;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    width: 50%;
+    width: 70%;
     font-weight: 600;
     font-size: 1.4rem;
     margin-bottom: 10px;
@@ -123,7 +135,7 @@ input {
     display: inline-block;
     padding: 10px;
     margin: auto;
-    width: 150px;
+    width: 35%;
     color: rgb(75, 73, 73);
     font-weight: 600;
     background-color: rgba(255, 255, 255, 0.5);
@@ -138,7 +150,7 @@ input {
 .valorConvertido {
     margin-top: 20px;
     display: block;
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
