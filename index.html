@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="icon" type="imagem/png" href="img/moeda-64.png" />
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+</head>
+
+<body>
+
+    <body>
+        <div class="container">
+            <h2 class="page-title">
+                CONVERSOR DE MOEDAS
+            </h2>
+
+            <div class="input" onChange={getCotacao()}>
+                <label for="moedas">MOEDAS
+                    <select id="moedas">
+                    </select>
+                </label>
+
+            </div>
+            <h4 class="valorCotacao" id="valorCotacao"></h4>
+            <div class="container-entrada">
+
+                <p class="page-subtitle">
+                    Quanto deseja converter para reais?
+                </p>
+                <input type="number" id="entradaValor" value="1" min='0' placeholder="Informe o valor." />
+
+            </div>
+
+
+            <h4 class="valorConvertido" id="valorConvertido">R$ 0.00</h4><br>
+
+        </div>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/ConversorMoeda.js"></script>
+
+    </body>
+
+</html>
+
+</body>
+
+</html>

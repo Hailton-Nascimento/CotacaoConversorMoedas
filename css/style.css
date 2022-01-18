@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    width: 100hw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    background: url(../img/bg03.jpg) no-repeat;
+    backdrop-filter: opacity(0.1);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+    border: 1px solid rgba(29, 28, 28, 0.486);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(53, 20, 20, 0.5);
+}
+
+.page-title {
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px auto;
+    color: #fff;
+    font-weight: 600;
+}
+
+.input {
+    color: #fff;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.input label {
+    font-size: 2rem;
+}
+
+select {
+    position: relative;
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    height: 2.2rem;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f8f8f8;
+    color: rgb(75, 73, 73);
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+select option {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.valorCotacao {
+    width: 80%;
+    padding: 15px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    display: none;
+}
+
+.valorCotacao span {
+    font-size: 2.2rem;
+}
+
+.container-entrada {
+    width: 60%;
+    background: rgba(212, 119, 102, 0.849);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-subtitle {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 50%;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.valorCotacao.verde {
+    color: rgb(16, 82, 3);
+    display: block;
+}
+
+.valorCotacao.vermelho {
+    color: rgb(252, 7, 7);
+    display: block;
+}
+
+input {
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+    width: 150px;
+    color: rgb(75, 73, 73);
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2.5rem;
+    border-radius: 5px;
+    border: 0 none;
+    outline: 0;
+}
+
+.valorConvertido {
+    margin-top: 20px;
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 4rem;
+    border-radius: 5px;
+    border: 0 none;
+    color: #FFF;
+    background: #00000050;
+}
