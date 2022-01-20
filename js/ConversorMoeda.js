@@ -46,7 +46,7 @@ function getCotacao() {
     data = new
     Date(resposta[moedaSelecionada].create_date);
 
-    document.getElementById("valorCotacao").innerHTML = `Cotação do(a) ${resposta[moedaSelecionada].name.substr(0, resposta[moedaSelecionada].name.indexOf("/"))} <br>no dia ${data.getDate()}/${data.getMonth() + 1}/${data.getFullYear()} as ${data.getHours()}:${data.getMinutes()} <br> <span class="valor">é R$ ${valorDaMoedaSelcionada.toFixed(2)} </span>`
+    document.getElementById("valorCotacao").innerHTML = `Cotação do(a) ${resposta[moedaSelecionada].name.substr(0, resposta[moedaSelecionada].name.indexOf("/"))} no dia ${data.getDate()}/${data.getMonth() + 1}/${data.getFullYear()} as ${data.getHours()}:${data.getMinutes()} <br> <span class="valor">é R$ ${valorDaMoedaSelcionada.toFixed(2)} </span>`
 
 
 

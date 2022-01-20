@@ -16,12 +16,13 @@ body {
     align-items: center;
 }
 
-@media (max-width: 550px) {
+
+/* @media (max-width: 550px) {
     .estrutura {
         grid-template-columns: 100%;
         grid-template-areas: "header" "sidenav" "content" "anuncios" "footer";
     }
-}
+} */
 
 .container {
     width: 500px;

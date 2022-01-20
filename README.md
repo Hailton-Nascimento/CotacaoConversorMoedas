@@ -10,14 +10,13 @@
 
 Este projeto é parte da Imersão Dev, realizada pela [Alura](https://www.alura.com.br/) em setembro de 2021.
 
-Durante a aula, utilizamos JavaScript para converter valores de dólar para real e mostrar o resultado na tela. 
 
 ## Objetivo
 
 - Criar uma aplicação que consulte através de uma api externa a última cotação da moeda desejada e faça a conversar para reais.
 
 # Índice
-# terra
+
 
 <p>
     <ul>
@@ -30,7 +29,7 @@ Durante a aula, utilizamos JavaScript para converter valores de dólar para real
     ℹ️ Sobre
 </h2>
 
-O projeto é um conversor de moedas desenvolvido em HTML, CSS e Javascript puro, além de consumir uma API de cotação de moedas (<a href="https://docs.awesomeapi.com.br/api-de-moedas">AwesomeAPI</a>) com o intuito de praticar essas competências.
+O projeto é um conversor de moedas desenvolvido em HTML, CSS, Javascript e JQuery, além de consumir uma API de cotação de moedas (<a href="https://docs.awesomeapi.com.br/api-de-moedas">AwesomeAPI</a>) com o intuito de praticar essas competências.
 
 ---
 
@@ -44,6 +43,7 @@ Foram utilizadas as seguintes tecnologias:
     <li>HTML</li>
     <li>CSS</li>
     <li>Javascript</li>
+    <li>JQuery</li>
 </ul>
 
 ---
