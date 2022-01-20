@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/video.gif" alt="Animated Gif">
+  <img src="img/00.gif" alt="Animated Gif">
 </p>
 
 <h1 align="center">
