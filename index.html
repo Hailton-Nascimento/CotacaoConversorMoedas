@@ -16,17 +16,29 @@
     <body>
         <div class="container">
             <h2 class="page-title">
-                CONVERSOR DE MOEDAS
+                Cotação e Conversao de Moedas
             </h2>
+            <select id="moedas" required>
+                <option value="" disabled selected>Selecione a moeda</option>
+             </select>
+            <div class="info-container">
+                <div class="loader">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="cotacao-container">
+                    <div class="moeda-conteiner"><span class="moeda"></span><span class="code"></span></div>
+                    <h4 class="info-cotacao"></h4>
+                    <div class="valor-container">
+                        <span class="valorCotacao"></span> <span class="tendenciaDeVariacao"><ion-icon id="up" name="arrow-up-outline"></ion-icon><ion-icon id="dow" name="arrow-down-outline"></ion-icon></span>
+                    </div>
+                </div>
 
-            <div class="input" onChange={getCotacao()}>
-                <label for="moedas">MOEDAS
-                    <select id="moedas">
-                    </select>
-                </label>
+
 
             </div>
-            <h4 class="valorCotacao" id="valorCotacao"></h4>
+
             <div class="container-entrada">
 
                 <p class="page-subtitle">
@@ -40,7 +52,9 @@
             <h4 class="valorConvertido" id="valorConvertido">R$ 0.00</h4><br>
 
         </div>
-        <script src="js/jquery-3.6.0.min.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
         <script src="js/ConversorMoeda.js"></script>
 
     </body>

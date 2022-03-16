@@ -16,19 +16,10 @@ body {
     align-items: center;
 }
 
-
-/* @media (max-width: 550px) {
-    .estrutura {
-        grid-template-columns: 100%;
-        grid-template-areas: "header" "sidenav" "content" "anuncios" "footer";
-    }
-} */
-
 .container {
-    width: 500px;
+    width: 600px;
     max-width: 90%;
-    background: url(../img/bg03.jpg) no-repeat;
-    backdrop-filter: opacity(0.1);
+    background: rgba(0, 0, 0, 0.3) url(../img/bg03.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-blend-mode: color;
@@ -82,21 +73,79 @@ select option {
     max-width: 90%;
 }
 
-.valorCotacao {
-    width: 450px;
+.info-container {
+    position: relative;
+    width: 500px;
+    height: 150px;
     max-width: 90%;
     padding: 15px;
     margin: 20px auto;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.cotacao-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    font-size: 1.8rem;
+    color: #FFF;
+}
+
+.moeda-conteiner {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.info-cotação {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.valor-container {
+    height: 50px;
+    position: relative;
+    font-size: 2.5rem;
+    width: 70%;
     font-weight: 600;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgba(255, 255, 255, 0.5);
+}
+
+.valor-container .tendenciaDeVariacao {
+    position: relative;
+    height: 100%;
+    width: 50px;
+    margin-left: 30px;
+    display: grid;
+    place-items: center;
+}
+
+.valor-container ion-icon {
+    text-align: center;
     display: none;
 }
 
-.valorCotacao span {
-    font-size: 2.2rem;
+.valor-container.up {
+    color: rgb(16, 82, 3);
+}
+
+.valor-container.up #up {
+    display: block;
+}
+
+.valor-container.dow {
+    color: rgb(252, 7, 7);
+}
+
+.valor-container.dow #dow {
+    display: block;
 }
 
 .container-entrada {
@@ -120,16 +169,6 @@ select option {
     font-size: 1.4rem;
     margin-bottom: 10px;
     color: #fff;
-}
-
-.valorCotacao.verde {
-    color: rgb(16, 82, 3);
-    display: block;
-}
-
-.valorCotacao.vermelho {
-    color: rgb(252, 7, 7);
-    display: block;
 }
 
 input {
@@ -160,4 +199,47 @@ input {
     border: 0 none;
     color: #FFF;
     background: #00000050;
+}
+
+.loader {
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    transition: opacity 0.2s ease-in;
+}
+
+.loader.show {
+    opacity: 1;
+}
+
+.circle {
+    background-color: #4CD964;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 10px;
+    animation: bounce 0.5s ease-in infinite;
+}
+
+.circle:nth-of-type(2) {
+    animation-delay: 0.1s;
+}
+
+.circle:nth-of-type(3) {
+    animation-delay: 0.2s;
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
